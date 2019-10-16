@@ -2,7 +2,7 @@ package entities;
 
 public class OutsourcedEmployee extends Employee {
 	
-	private double additionalCharge;
+	private Double additionalCharge;
 	
 	public OutsourcedEmployee() {
 		super();
@@ -23,6 +23,6 @@ public class OutsourcedEmployee extends Employee {
 
 	@Override
 	public double payment() {
-		return super.payment() + additionalCharge * 1.10 ;
+		return super.payment() + additionalCharge * 1.1 ;
 	}
 }

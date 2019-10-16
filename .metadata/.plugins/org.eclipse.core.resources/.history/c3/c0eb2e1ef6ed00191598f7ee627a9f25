@@ -1,0 +1,106 @@
+package entities;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import entities.enums.OrderStatus;
+
+public class Order {
+	
+	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss"); // uma unica vez para todos os posts
+	
+	// Order
+	private Date moment;
+	private OrderStatus level; // enum
+	
+	// Client
+	private String name;
+	private String email;
+	private Date birthDate;
+	
+	private List<OrderItem> orders = new ArrayList<>(); // não entra no construtor
+	
+	private Order() {
+	}
+
+	public Order(Date moment, OrderStatus level, String name, String email, Date birthDate, List<OrderItem> orders) {
+		this.moment = moment;
+		this.level = level;
+		this.name = name;
+		this.email = email;
+		this.birthDate = birthDate;
+		this.orders = orders;
+	}
+
+	public static SimpleDateFormat getSdf() {
+		return sdf;
+	}
+
+	public static void setSdf(SimpleDateFormat sdf) {
+		Order.sdf = sdf;
+	}
+
+	public Date getMoment() {
+		return moment;
+	}
+
+	public void setMoment(Date moment) {
+		this.moment = moment;
+	}
+
+	public OrderStatus getLevel() {
+		return level;
+	}
+
+	public void setLevel(OrderStatus level) {
+		this.level = level;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public Date getBirthDate() {
+		return birthDate;
+	}
+
+	public void setBirthDate(Date birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	public List<OrderItem> getOrders() {
+		return orders;
+	}
+
+	/*public void setOrders(List<OrderItem> orders) {
+		this.orders = orders;
+	}*/
+	
+	//private List<OrderItem> orders = new ArrayList<>();
+
+	public void addOrder(OrderItem order) {
+		orders.add(order);
+	}
+	
+	public void removeOrder(OrderItem order) {
+		orders.remove(order);
+	}
+	
+	
+	
+	
+}

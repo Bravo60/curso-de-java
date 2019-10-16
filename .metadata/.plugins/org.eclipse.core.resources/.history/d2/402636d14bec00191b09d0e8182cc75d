@@ -1,0 +1,30 @@
+package entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.enums.WorkerLevel;
+
+public class Worker {
+	
+	// Associações >> composição de objetos
+	private String name;
+	private WorkerLevel level;
+	private Double baseSalary;
+	
+	private Department department;
+	private List<HourContract> contracts = new ArrayList<>(); // não entra no construtor
+	
+	public Worker() {
+	}
+
+	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
+		this.name = name;
+		this.level = level;
+		this.baseSalary = baseSalary;
+		this.department = department;
+	}
+
+	
+	
+}

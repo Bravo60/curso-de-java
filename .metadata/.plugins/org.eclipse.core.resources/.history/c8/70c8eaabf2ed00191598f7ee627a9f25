@@ -1,0 +1,14 @@
+package entities;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Order {
+	
+	private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss"); // uma unica vez para todos os posts
+	
+	private Date moment;
+	private OrderStatus Level; 
+	
+
+}

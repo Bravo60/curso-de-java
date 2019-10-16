@@ -1,0 +1,10 @@
+package entities;
+
+public class Room {
+	String name;
+	String email;
+	int room;
+	
+	
+
+}

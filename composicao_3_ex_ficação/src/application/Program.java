@@ -52,6 +52,7 @@ public class Program {
 			System.out.print("Product name: ");
 			sc.nextLine();
 			String productName = sc.nextLine();
+			
 			System.out.print("Product price: ");
 			double productPrice = sc.nextDouble();
 			

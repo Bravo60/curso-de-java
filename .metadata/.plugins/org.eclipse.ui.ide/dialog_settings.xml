@@ -12,6 +12,10 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Java\eclipse-workspace\metodos_abstratos_ex2_correcao"/>
+			<item value="C:\Java\eclipse-workspace\metodos_abstratos_ex1"/>
+			<item value="C:\Java\eclipse-workspace\classes_abstratas_2"/>
+			<item value="C:\Java\eclipse-workspace\classes_abstratas"/>
 			<item value="C:\Java\eclipse-workspace\java"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

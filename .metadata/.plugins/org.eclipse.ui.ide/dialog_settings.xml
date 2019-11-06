@@ -12,6 +12,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Java\eclipse-workspace\"/>
 			<item value="C:\Java\eclipse-workspace\interfaces_classe_implementando_2_interfaces"/>
 			<item value="C:\Java\eclipse-workspace\interfaces_com_abstract"/>
 			<item value="C:\Java\eclipse-workspace\interfaces_injecao_dependencia_invercao_de_controle"/>

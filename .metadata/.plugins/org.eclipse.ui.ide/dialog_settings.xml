@@ -12,6 +12,16 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Java\eclipse-workspace\103 function_map_lambda4"/>
+			<item value="C:\Java\eclipse-workspace\102 interface_consumer_lambda3"/>
+			<item value="C:\Java\eclipse-workspace\101 expressoes_lambda2"/>
+			<item value="C:\Java\eclipse-workspace\100 expressoes_lambda"/>
+			<item value="C:\Java\eclipse-workspace\99 map_exercicio"/>
+			<item value="C:\Java\eclipse-workspace\96 set_exercicio_fixacao"/>
+			<item value="C:\Java\eclipse-workspace\95 set_Problema exemplo"/>
+			<item value="C:\Java\eclipse-workspace\89 generics4"/>
+			<item value="C:\Java\eclipse-workspace\88 generics2"/>
+			<item value="C:\Java\eclipse-workspace\87 generics"/>
 			<item value="C:\Java\eclipse-workspace\"/>
 			<item value="C:\Java\eclipse-workspace\interfaces_classe_implementando_2_interfaces"/>
 			<item value="C:\Java\eclipse-workspace\interfaces_com_abstract"/>
@@ -22,8 +32,6 @@
 			<item value="C:\Java\eclipse-workspace\metodos_abstratos_ex2_correcao"/>
 			<item value="C:\Java\eclipse-workspace\metodos_abstratos_ex1"/>
 			<item value="C:\Java\eclipse-workspace\classes_abstratas_2"/>
-			<item value="C:\Java\eclipse-workspace\classes_abstratas"/>
-			<item value="C:\Java\eclipse-workspace\java"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
